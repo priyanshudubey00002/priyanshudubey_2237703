@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    max-width: 100%;
+    background-color: white;
+}
+
+.nav{
+    width: 100%;
+    height: 10vw ;
+    /* background-color: red; */
+    /* border: 1px solid black; */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.leftNav{
+    height: fit-content;
+    /* width: fit-content; */
+    margin-left: 50px;
+
+}
+.leftNav img{
+    margin-left: 40px;
+    height: 80px;
+
+}
+
+.rightNav a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 500;
+    margin-right: 40px;
+
+}
+.section1{
+    width: 100vw;
+    height: 42vw;
+    /* background-color: red; */
+    background-image: url("Rectangle 48.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section1 h4{
+    font-size: 40px;
+    margin: 20px;
+}
+.section1 h1{
+    font-size: 5vw;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.section1 p{
+font-size: 50px;
+margin: 20px;
+}
+.contain{
+    display: flex;
+}
+#b1{
+    height: 4vw;
+    width: 15vw;
+    /* background-color: red; */
+    border-radius: 50px;
+    position: relative;
+    /* padding: 40px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5vw;
+    margin-top: 3vw;
+    
+}
+
+#b2{
+    height: 4vw;
+    width: 15vw;
+    /* background-color: red; */
+    border: 2px solid rgb(250, 249, 249);
+    border-radius: 50px;
+    position: relative;
+    /* padding: 40px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+.phone{
+    height: 65vw;
+    position: absolute;
+    top: 63%;
+    right: 32%;
+    z-index: 20;
+}
+.section2{
+    height: 60vw;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.section2{
+    position: relative;
+    font-size: 5vw;
+    font-weight: 700;
+    margin-bottom: 10vw;
+}
+/* .line{
+    
+    width: 70%;
+    height: 5px;
+    background-color: rgb(63, 59, 59);
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    position: absolute;
+
+} */
+.section3{
+    height: 50vw;
+    width: 100%;
+    /* background-color: red;
+     */
+     /* border: 1px solid black; */
+     display: flex;
+     justify-content: center;
+}
+.img1{
+    height: 50vw;
+}
+.img2{
+    height: 20vw;
+    margin-top: 10vw ;
+}
+.section4{
+    height: 50vw;
+    width: 100%;
+    /* background-color: red;
+     */
+     /* border: 1px solid black; */
+     display: flex;
+     justify-content: center;
+}
+.img3{
+    height: 20vw;
+    margin-top: 10vw;
+
+}
+
+.img4{
+    height: 50vw;
+}
+.section5{
+    height: 50vw;
+    width: 100%;
+    /* background-color: red;
+     */
+     /* border: 1px solid black; */
+     display: flex;
+     justify-content: center;
+}
+.img6{
+    height: 20vw;
+    margin-top: 10vw;
+
+}
+
+.img5{
+    height: 50vw;
+}
+.section6{
+    width: 100%;
+    height: 35vw;
+    /* border: 1px solid black; */
+    background-image: url("Rectangle 47.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section6 h1{
+    margin: 2vw;
+    font-size: 3vw;
+    color: white;
+    font-weight: 600;
+}
+.section6 p{
+    color: white;
+    font-size: 2vw;
+    margin-bottom: 3vw;
+    
+}
+.con{
+    display: flex;
+}
+.img8{
+    margin-right: 2vw;
+    height: 5vw;
+}
+.img7{
+    margin-right: 2vw;
+    height: 5vw;
+}
+
+.section8{
+    height: 15vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img10{
+    height: 6vw;
+}
+.img11{
+    height: 3vw;
+}
+.img12{
+    height: 30px;
+}
